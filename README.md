@@ -1,1 +1,1 @@
-# micro-frontend-project
+# Micro Frontend with Vue JS and React JS
