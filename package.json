@@ -1,0 +1,28 @@
+{
+  "name": "micro-frontend-project",
+  "version": "1.0.0",
+  "description": "## Install Vue JS ``` npm i vue@next ``` ## Install Vue CLI ``` npm install -g @vue/cli ``` ## Install Vue Router ``` npm install -s vue-router ```",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev:welcome": "cd welcome && npm run build",
+    "dev:music": "cd music && npm run nuild",
+    "dev:bootstrap": "cd bootstrap && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/casimiri/micro-frontend-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/casimiri/micro-frontend-project/issues"
+  },
+  "homepage": "https://github.com/casimiri/micro-frontend-project#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "path": "^0.12.7"
+  }
+}
